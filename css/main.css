@@ -66,7 +66,7 @@ header .icons span{
 
 nav {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr auto;
     height: 90px;
     width: 90%;
     margin: 0 auto;
@@ -86,6 +86,7 @@ nav .profile-link{
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    gap: 10px;
     
 }
 nav .profile-link a{
